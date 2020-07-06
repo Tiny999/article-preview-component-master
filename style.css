@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+}
+
+/* Utility Classes */
+.mb{
+  margin-bottom: .8rem;
+}
+/*  */
+
+.container{
+  width: 1440px;
+  height: 400px;
+  background: white;
+  margin: auto;
+  position: relative;
+  top: 150px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.drawers{
+  background: url(./images/drawers.jpg) no-repeat;
+  height: 100%;
+  width: 40%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.text-container{
+  height: 100%;
+  width: 60%;
+  padding: 3.5rem;
+}
+
+.content h1{
+  color: hsl(214, 17%, 51%);
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+.content p{
+  color: hsl(212, 23%, 69%);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+
+.michelle{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: .5fr 3fr 1fr;
+  margin-top: 1rem;
+}
+
+.michelle #avatar{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.michelle #share{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: .7rem;
+  background: hsl(210, 46%, 95%);
+}
+
+.michelle h4{
+  color: hsl(214, 17%, 51%);
+  font-size: 1.2rem;
+}
+
+.michelle p{
+  color: hsl(212, 23%, 69%);
+  font-size: 1rem;
+}
